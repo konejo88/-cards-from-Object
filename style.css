@@ -1,0 +1,41 @@
+.telefons{
+    display: flex;
+    flex-direction: row;
+}
+.telefons div{
+    width: 250px;
+    height: 550px;
+    border: 2px solid rgb(36, 15, 223);
+    margin: 20px;
+    text-align: center;
+ 
+}
+img{
+    width: 170px;
+    height: 200px;
+    object-fit: cover;
+    margin: 20px;
+   
+}
+.price{
+   width: 200px;
+   height: 30px;
+   border: 2px solid gray;
+   margin-left: 20px;
+   box-shadow: 3px 3px 3px grey;
+   padding-top: 5px;
+}
+.discont{
+    width: 200px;
+    height: 30px;
+    background-color: red;
+    margin-left: 20px;
+    padding-top: 5px;
+    
+}
+.hiden{
+    visibility: none;
+}
+.one{
+    display: none;
+}
